@@ -5,5 +5,10 @@
         "Melhorias:": ["feature", "internal"],
         "Correções de Bugs:": ["bug"]
     },
-    "milestoneMatch": "(Lançamento da Versão {{tag_name}})"
+    "template": {
+        "issue": "- [{{text}}]({{url}}) {{name}}",
+        "changelogTitle": "# Lançamento da versão {{release}}\n\n",
+        "release": "## {{release}} ({{date}})\n{{body}}"
+    }
 }
+
