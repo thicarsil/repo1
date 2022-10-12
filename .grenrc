@@ -6,7 +6,7 @@
         "Correções de Bugs:": ["bug"],
         "Testes:": ["teste"]
     },
-    "milestoneMatch": "(Lançamento da Versão {{tag_name}})",
+    "milestoneMatch": "{{tag_name}}",
     "template": {
         "issue": "- [{{text}}]({{url}}) {{name}}",
         "changelogTitle": "# Lançamento da versão {{release}}\n\n",
