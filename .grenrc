@@ -1,5 +1,5 @@
 {
-    "dataSource": "milestones",
+    "dataSource": "issues",
     "prefix": "",
     "groupBy": {
         "Melhorias:": ["feature", "internal"],
