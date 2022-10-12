@@ -1,0 +1,9 @@
+{
+    "dataSource": "milestones",
+    "prefix": "",
+    "groupBy": {
+        "Melhorias:": ["feature", "internal"],
+        "Correções de Bugs:": ["bug"]
+    },
+    "milestoneMatch": "(Lançamento da Versão {{tag_name}})"
+}
