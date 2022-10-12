@@ -1,9 +1,10 @@
 {
-    "dataSource": "issues",
+    "dataSource": "milestones",
     "prefix": "",
     "groupBy": {
         "Melhorias:": ["feature", "internal"],
-        "Correções de Bugs:": ["bug"]
+        "Correções de Bugs:": ["bug"],
+        "Testes:": ["teste"]
     },
     "template": {
         "issue": "- [{{text}}]({{url}}) {{name}}",
