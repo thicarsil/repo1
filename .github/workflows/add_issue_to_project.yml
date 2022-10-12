@@ -14,5 +14,5 @@ jobs:
         with:
           project-url: https://github.com/users/thicarsil/projects/1
           github-token: ${{ secrets.MY_PAT }}
-          labeled: "type: feature", "type: bug"
+          labeled: feature, bug
           label-operator: OR
